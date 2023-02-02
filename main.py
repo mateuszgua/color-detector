@@ -36,3 +36,7 @@ def draw_function(event, x, y, flags, param):
         b = int(b)
         g = int(g)
         r = int(r)
+
+
+cv2.namedWindow('image')
+cv2.setMouseCallback('image', draw_function)
